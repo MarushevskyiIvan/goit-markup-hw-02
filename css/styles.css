@@ -1,0 +1,281 @@
+:root {
+    --title-text-color: #2E2F42;
+    --main-text-color:#434455;
+    --third-text-color: #ffffff;
+    --background-grey-color:#2E2F42;
+    --background-light-color:#F4F4FD;
+    --btn-color:#4D5AE5;
+    --btn-hover-color:#4D5AE5;
+    --btn-clic-color:#404BBF;
+}
+
+         /* _____Сommon______ */
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color:var(--main-text-color);
+}
+
+.mein-text-style{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+           /* ______HEDER_______ */
+
+.logo {
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+            
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-style {
+    color: var(--btn-color);
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Roboto' 'sans-serif';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.nav-link:hover{
+    color: var(--btn-clic-color);
+    text-decoration: underline;
+}
+.nav-link:focus {
+    color: var(--btn-clic-color);
+}
+
+.contacts-list {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-list:hover {
+    color: var(--btn-clic-color);
+}
+    
+.contacts-list:focus {
+    color: var(--btn-clic-color);
+}
+            /* _____HERO _____*/
+
+.hero-section {
+    width: 1440px;
+    height: 600px;
+    background-color:var(--background-grey-color);
+}
+
+.hero-titel {
+    color: var(--third-text-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    color: var(--third-text-color);
+    cursor: pointer;
+    font-family: inherit;
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+}   
+
+.hero-btn:hover {
+    background:var(--btn-clic-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--third-text-color);
+}
+
+.hero-btn:focus {
+    background:var(--btn-clic-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--third-text-color);
+}
+
+        /* ________ Advantages________ */
+.section-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--second-text-color);
+}
+
+.section-titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+    text-align: center;
+}
+
+.card-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-item {
+    background: var(--third-text-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+
+.card-item-titel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.card-item-text {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--second-text-color);
+
+}
+
+.section-team {
+    width: 1600px;
+    height: 648px;
+    background-color: var(--background-wite-color);
+
+
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--background-grey-color);
+}
+
+.footer-logo-style {
+    color: var(--third-text-color);
+}
+
+.address-link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--third-text-color);
+}
+
+.address-link:hover,
+:focus {
+    color: var(--accent-color);
+}
+
+.portfolio-btn {
+    cursor: pointer;
+    font-family: inherit;
+    background-color: var(--btn-color);
+    border: 0px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.portfolio-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+}
+
+.portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+}
+
+.oll {
+    width: 73px;
+    height: 38px;
+}
+
+.web-site {
+    width: 125px;
+    height: 38px;
+}
+
+.application {
+    width: 112px;
+    height: 38px;
+}
+
+.design {
+    width: 103px;
+    height: 38px;
+}
+
+.markiting {
+    width: 130px;
+    height: 38px;
+}
+
+.portfolio-list-titel {
+    text-decoration: none;
+    font-family: 'Roboto' 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--main-text-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--second-text-color);
+}
