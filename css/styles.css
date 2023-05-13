@@ -23,6 +23,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--main-text-color);
     
 }
 
@@ -207,14 +208,16 @@ color: #F4F4FD;
 
 
 .portfolio-btn {
-    background-color: var(--btn-color);
-    color: var(--third-text-color);
+    background-color: var(--background-light-color);
+    color: var(--btn-color);
 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
+    height: 48px;
 
     border: 0px;
     border-radius: 4px;
@@ -234,29 +237,24 @@ color: #F4F4FD;
     color: var(--third-text-color);
 }
 
-.all {
+.all-btn {
     width: 69px;
-    height: 48px;
 }
 
-.web-site {
-    width: 116px;
-    height: 48px
+.web-site-btn {
+    width: 116px;   
 }
 
-.app {
-    width: 78px;
-    height: 48px;
+.app-btn {
+    width: 78px;   
 }
 
-.design {
-    width: 101px;
-    height: 48px;
+.design-btn {
+    width: 101px;   
 }
 
-.marketing {
-    width: 126px;
-    height: 48px;
+.marketing-btn {
+    width: 126px;  
 }
 
 
