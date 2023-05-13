@@ -1,19 +1,22 @@
 :root {
+    --logo-color:#4D5AE5;
     --title-text-color: #2E2F42;
     --main-text-color:#434455;
     --third-text-color: #ffffff;
     --background-grey-color:#2E2F42;
     --background-light-color:#F4F4FD;
     --btn-color:#4D5AE5;
-    --btn-hover-color:#4D5AE5;
-    --btn-clic-color:#404BBF;
+    --btn-hover-color:#404BBF;
+    
 }
 
-         /* _____Сommon______ */
+/* _______________Сommon________________ */
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
     color:var(--main-text-color);
+    background-color: #FFFFFF;
+
 }
 
 .mein-text-style{
@@ -21,6 +24,28 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     
+}
+
+.title-tex-style{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.sub-titel-text-styles{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.link{
+    text-decoration: none;
 }
 
 .list {
@@ -39,12 +64,12 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-           /* ______HEDER_______ */
+ /* ___________________HEDER_________________ */
 
 .logo {
-    color: var(--title-text-color);
-    text-decoration: none;
-    font-family: 'Raleway';
+    color:var(--logo-color);
+    
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -54,11 +79,11 @@ body {
 }
 
 .logo-style {
-    color: var(--btn-color);
+    color:var(--title-text-color);
 }
 
 .nav-link {
-    text-decoration: none;
+    
     font-family: 'Roboto' 'sans-serif';
     font-weight: 500;
     font-size: 16px;
@@ -67,29 +92,33 @@ body {
     color: var(--title-text-color);
 }
 .nav-link:hover{
-    color: var(--btn-clic-color);
-    text-decoration: underline;
+    color:var(--btn-hover-color);
+    
 }
 .nav-link:focus {
-    color: var(--btn-clic-color);
+    color:var(--btn-hover-color);
+}
+
+.concacts{
+    font-style: normal;
 }
 
 .contacts-list {
-    text-decoration: none;
-    font-style: normal;
+       
     color: var(--second-text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.contact-list:hover {
-    color: var(--btn-clic-color);
+.contacts-list:hover {
+    color:var(--btn-hover-color);
 }
     
 .contacts-list:focus {
-    color: var(--btn-clic-color);
+    color:var(--btn-hover-color);
 }
-            /* _____HERO _____*/
+ /* _______________HERO ______________*/
 
 .hero-section {
     width: 1440px;
@@ -103,179 +132,133 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-btn {
+    background-color: var(--btn-color);
     color: var(--third-text-color);
-    cursor: pointer;
-    font-family: inherit;
-    width: 169px;
-    height: 56px;
+    
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.04em;
+    
     border-radius: 4px;
     border: 0px;
+   
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }   
 
 .hero-btn:hover {
-    background:var(--btn-clic-color);
+    background:var(--btn-hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--third-text-color);
+    color:var(--third-text-color)
 }
 
 .hero-btn:focus {
-    background:var(--btn-clic-color);
+    background:var(--btn-hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--third-text-color);
 }
 
-        /* ________ Advantages________ */
-.section-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+ /* _______________ Advantages_______________ */
+
+/* _______________Our Works________________ */
+
+/* ______________Team-Section________________ */
+.team-section{
+    background-color: var(--background-light-color);
+    width: 1440px;
+   
 }
 
-.section-text {
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--second-text-color);
+.card-item{
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;   
 }
 
-.section-titel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.15;
-    text-align: center;
-}
-
-.card-list {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-
-.card-item {
-    background: var(--third-text-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    text-align: center;
-}
-
-.card-item-titel {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-}
-
-.card-item-text {
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--second-text-color);
-
-}
-
-.section-team {
-    width: 1600px;
-    height: 648px;
-    background-color: var(--background-wite-color);
-
-
-}
+/* _______________Footer________________ */
 
 .footer {
-    width: 1600px;
-    height: 252px;
     background-color: var(--background-grey-color);
-}
-
+    width: 1440px;
+    height: 312px;
+} 
+ 
 .footer-logo-style {
     color: var(--third-text-color);
 }
 
-.address-link {
-    text-decoration: none;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--third-text-color);
+.footer-text{
+color: #F4F4FD;
 }
 
-.address-link:hover,
-:focus {
-    color: var(--accent-color);
-}
+/* _______________Portfolio_________________ */
+
 
 .portfolio-btn {
-    cursor: pointer;
-    font-family: inherit;
     background-color: var(--btn-color);
-    border: 0px;
-    border-radius: 4px;
+    color: var(--third-text-color);
+
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border: 0px;
+    border-radius: 4px;
+          
+    cursor: pointer;
     margin-bottom: 10px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-btn:hover {
-    background-color: var(--accent-color);
+    background-color:var(--btn-hover-color);
     color: var(--third-text-color);
 }
 
 .portfolio-btn:focus {
-    background-color: var(--accent-color);
+    background-color: var(--btn-hover-color);
     color: var(--third-text-color);
 }
 
-.oll {
-    width: 73px;
-    height: 38px;
+.all {
+    width: 69px;
+    height: 48px;
 }
 
 .web-site {
-    width: 125px;
-    height: 38px;
+    width: 116px;
+    height: 48px
 }
 
-.application {
-    width: 112px;
-    height: 38px;
+.app {
+    width: 78px;
+    height: 48px;
 }
 
 .design {
-    width: 103px;
-    height: 38px;
+    width: 101px;
+    height: 48px;
 }
 
-.markiting {
-    width: 130px;
-    height: 38px;
-}
-
-.portfolio-list-titel {
-    text-decoration: none;
-    font-family: 'Roboto' 'sans-serif';
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: var(--main-text-color);
+.marketing {
+    width: 126px;
+    height: 48px;
 }
 
 .portfolio-link {
     text-decoration: none;
-}
-
-.portfolio-list-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--second-text-color);
 }
