@@ -237,24 +237,5 @@ color: #F4F4FD;
     color: var(--third-text-color);
 }
 
-.all-btn {
-    width: 69px;
-}
-
-.web-site-btn {
-    width: 116px;   
-}
-
-.app-btn {
-    width: 78px;   
-}
-
-.design-btn {
-    width: 101px;   
-}
-
-.marketing-btn {
-    width: 126px;  
-}
 
 
