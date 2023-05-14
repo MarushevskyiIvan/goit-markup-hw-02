@@ -29,7 +29,7 @@ body {
 
 .title-tex-style{
     color: var(--title-text-color);
-    font-weight: 700;
+    
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -157,16 +157,17 @@ body {
 
 .hero-btn:hover {
     background:var(--btn-hover-color);
+    color: var(--third-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color:var(--third-text-color)
+
 }
 
 .hero-btn:focus {
     background:var(--btn-hover-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     color: var(--third-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+    
 }
 
  /* _______________ Advantages_______________ */
@@ -201,7 +202,7 @@ body {
 }
 
 .footer-text{
-color: #F4F4FD;
+    color: #F4F4FD;
 }
 
 /* _______________Portfolio_________________ */
@@ -236,6 +237,7 @@ color: #F4F4FD;
     background-color: var(--btn-hover-color);
     color: var(--third-text-color);
 }
+
 
 
 
